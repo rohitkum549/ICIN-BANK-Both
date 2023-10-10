@@ -1,0 +1,86 @@
+<!-- <p>signup works!</p> -->
+<div class="container signup1">
+    <div class="box box1">
+      <!-- <h1>admin</h1> -->
+      <div>
+        <img src="../../assets/q1.png" class="signup7">
+      </div>
+    </div>
+    <div class="box box2">
+      <h1 class="text-center"><b><i>ICIN-Banking</i> Sign</b> Up</h1>
+<section>
+   <div class="container signup1">
+      <div class="row signup2">
+          <div class="col-md-6 offset-md-3">
+              <div class="my-card signup3">
+                  <div class="container text-center">
+                  <img style="width:110px;" alt="" src="../IMG/gggg.png">
+                  </div>
+                  
+                  <form #signup="ngForm" (ngSubmit)="onsubmit(signup.value)">
+                      <div class="mb-3">
+                          <label for="uname" class="form-label">Full Name</label> 
+                              <input 
+                              type="text" 
+                              class="form-control"
+                              name="uname"
+                              ngModel
+                               placeholder="Enter Full Name"
+                               required="required">
+                      </div>
+                          <div class="mb-3">
+                          <label for="uphone" class="form-label">Mobile Number</label> 
+                              <input 
+                              type="number" 
+                              class="form-control"
+                              name="uphone"
+                              ngModel
+                               placeholder="Enter Mobile Number"
+                               required="required">
+                      </div>
+                          <div class="mb-3">
+                          <label for="uemail" class="form-label">Email</label> 
+                              <input 
+                              type="email" 
+                              class="form-control"
+                              name="uemail"
+                              ngModel
+                               placeholder="Enter Email"
+                               required="required">
+                      </div>
+                          <div class="mb-3">
+                          <label for="upassword" class="form-label">Password</label> 
+                              <input 
+                              type="password" 
+                              class="form-control"
+                              name="upassword"
+                              ngModel
+                               placeholder="Enter Password"
+                               required="required">
+                      </div>
+                     
+                      <div class="form-group from-check text-center">
+                      <input type="checkbox"
+                      name="agreement"
+                      
+                      />
+                      <label for="agreement"> Accept Terms And Conditions</label>
+                      </div>
+                      
+                      <br>
+                     
+                      <button type="submit" class="signup5 btn-block">Sign Up</button>
+                      <button type="reset" class="signup6 btn-block ">Reset</button>
+
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<div>
+  <img src="../../assets/Orange Digital Marketing Agency Facebook Cover.png" style="width: 100%;height: 135px;">
+  <!-- <app-carousel></app-carousel> -->
+</div>
+    </div>
+  </div>

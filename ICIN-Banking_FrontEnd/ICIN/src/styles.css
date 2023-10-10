@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* text-decoration: solid;
+    display: inline; */
+}
+a:hover
+{
+    color: rgba(41, 195, 195, 0.434);
+}

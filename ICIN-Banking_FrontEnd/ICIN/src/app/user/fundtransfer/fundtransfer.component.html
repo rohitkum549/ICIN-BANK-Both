@@ -1,0 +1,69 @@
+<!-- <p>fundtransfer works!</p> -->
+<section>
+  <div class="container ff1gg">
+    <div>
+        <button (click)="logout()" style="background-color: rgb(120, 196, 199); border-color: rgb(121, 212, 215); margin-left: 1180px;">Logout</button>   
+    </div>
+  </div>
+  
+  <div class="container ff1gg">
+    <div class="box13 box11">
+        <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;">
+    </div>
+    <div class="box13 box12">
+  
+        <div class="afterffg1">
+            <b><i><h1><span>Quick Transfer <i class="fa-solid fa-right-left"></i></span></h1></i></b>
+            <b><span>{{vali}}</span></b>
+        
+        </div>
+    </div>
+  </div>
+  <br>
+    <div class="container ghh1">
+        <!-- <b><i><h3>Requesting cheque books</h3></i></b> -->
+
+             <p>If some kind of error happen while doing Transfer take the screenShot and contact to nearest branch.</p>
+             <b><i><span>Account Number</span></i></b>
+             <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="uemail" type="text" class="form-control" name="uemail" placeholder="From Account" value="{{account}}" disabled> 
+            </div>
+        
+        <form #fund="ngForm" (ngSubmit)="fundtranfer(fund.value)" >
+          <!-- <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="uemail" type="readonly" class="form-control" name="uemail" placeholder="From Account" value="{{account}}"disabled>
+          </div> -->
+          <br>
+          <b><i><span> Holder Name </span></i></b>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="name" type="text" class="form-control" name="name" ngModel placeholder="Name Of Holder" value="">
+          </div>
+          <br>
+          <b><i><span>To Account</span></i></b>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-receipt"></i></span>
+            <input id="toacc" type="number" class="form-control" name="toacc" ngModel placeholder="To Account">
+          </div>
+          <br>
+          <b><i><span>Amount</span></i></b>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-mountain"></i></span>
+            <input id="amount" type="number" class="form-control" name="amount" ngModel placeholder="Amount">
+          </div>
+          <br>
+          <b><i><span>Comment</span></i></b>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-regular fa-comment"></i></span>
+            <input id="remarks" type="text" class="form-control" name="remarks" ngModel placeholder="Remarks">
+          </div>
+          <br><br>
+          <div class="input-group" style="margin-left: 250px; background-color: chocolate; color: rgb(8, 207, 233);">
+            <button type="submit" class="btn-block kkj">Send</button>
+          </div>
+        </form>
+        <br>
+      </div>
+</section>

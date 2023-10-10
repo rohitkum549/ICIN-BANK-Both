@@ -1,0 +1,123 @@
+<!-- <p>adminaccountholderview works!</p> -->
+
+
+<!-- <div class="afterffg1">
+    <b style="color: blueviolet;"><i><h1><span>Welcome to ICIN-Account Holder View </span></h1></i></b>
+    <b><span>MR.{{vali}}</span></b>
+</div> -->
+
+
+<div class="container ff1gg">
+  <div>
+      <button (click)="logout()" style="background-color: rgb(120, 196, 199); border-color: rgb(121, 212, 215); margin-left: 1180px;">Logout</button>   
+  </div>
+</div>
+
+<div class="container ff1gg">
+  <div class="box13 box11">
+      <!-- <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;"> -->
+      <img src="../../../assets/admin-panel.png" style="border-radius: 100%; width: 34%;">
+  </div>
+  <div class="box13 box12">
+
+      <div class="afterffg1">
+          <b><i><h1><span>Account DashBoard <i class="fa-solid fa-diamond"></i></span></h1></i></b>
+          <b><span>{{admin}}</span></b>
+      
+      </div>
+  </div>
+</div>
+
+
+
+
+<div class="container" style="margin-left: 0%; margin-right: 0%;">
+  <div class="cart-header" style="text-align: center;">
+    <h3 style="font-size: 30px; 
+              color: rgb(94, 187, 32);
+              background-color: rgba(250, 235, 215, 0.332);
+              width: 100%;">Account Holder Details</h3>
+  </div>
+  <!-- <div class="container">
+    <div class="container ghghgh1">
+
+      
+  </div>
+  </div> -->
+  <div class="cart">
+    <div class="cart-items">
+      <table class="table boder=1">
+        <tr>
+          <th class="ghgh">Id</th>
+          <th class="ghgh">Branch</th>
+          <th class="ghgh">Name</th>
+          <th class="ghgh">Phone</th>
+          <th class="ghgh" style="text-align: center;">Email</th>
+          <th class="ghgh">Bank type</th>
+          <th class="ghgh" style="text-align: center;">DOB</th>
+          <th class="ghgh">PAN Card</th>
+          <th class="ghgh">Aadhar</th>
+          <th>Address</th>
+          <th class="ghgh" style="text-align: center;">Photo</th>
+          <th class="ghgh">Nomine Name</th>
+          <th class="ghgh">Nomine Phone</th>
+          <th class="ghgh">Nomine Aadhar</th>
+        </tr>
+
+        <tr *ngFor="let i of ProductArray">
+          <td class="ghgh">
+            {{i.id}}
+          </td>
+          <td class="ghgh">
+            {{i.branch}}
+          </td>
+          <td class="ghgh">
+            {{i.name}}
+          </td>
+          <td class="ghgh">
+            {{i.phone}}
+          </td>
+          <td class="ghgh">
+            {{i.email}}
+          </td>
+          <td class="ghgh">
+            {{i.banktype}}
+          </td>
+          <td class="ghgh">
+            {{i.dateofbirth}}
+          </td>
+          <td class="ghgh">
+            {{i.pancard}}
+          </td>
+          <td class="ghgh">
+            {{i.aadhar}}
+          </td>
+          <td class="ghgh">
+            {{i.address}}
+          </td>
+          <td class="ghgh">
+            <img src="../../+{{i.photo}}" style="height: 60px; width: auto; border-radius: 40%;">
+          </td>
+          <td class="ghgh">
+            {{i.nomineename}}
+          </td>
+          <td class="ghgh"> 
+            {{i.nomineephone}}
+          </td>
+          <td class="ghgh">
+            {{i.nomineeaadhar}}
+          </td>
+        </tr>
+        <!-- <hr> -->
+      </table>
+    </div>
+    <div class="cart-total">
+    </div>
+    <div class="cart-actions">
+    </div>
+  </div>
+
+</div>
+
+
+<!-- <router-outlet></router-outlet> -->

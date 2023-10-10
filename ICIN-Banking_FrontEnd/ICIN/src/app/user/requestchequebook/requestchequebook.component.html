@@ -1,0 +1,77 @@
+<!-- <p>requestchequebook works!</p> -->
+
+
+
+
+<section>
+    <!-- <div class="container ff1gg">
+        <div class="afterffg1">
+            <b><i><h1><span>Apply for Cheque Book</span></h1></i></b>
+            <b><span>{{vali}}</span></b>
+        </div>
+    </div> -->
+
+    <div class="container ff1gg">
+      <div>
+          <button (click)="logout()" style="background-color: rgb(107, 189, 185); border-color: rgb(107, 182, 189); margin-left: 1180px;">Logout</button>   
+      </div>
+  </div>
+  
+  <div class="container login1">
+      <div class="box13 box11">
+          <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;">
+      </div>
+      <div class="box13 box12">
+  
+          <div class="afterffg1">
+              <b><i><h1><span>Apply For Cheque Book</span></h1></i></b>
+              <b><span>{{vali}}</span></b>
+          
+          </div>
+      </div>
+  </div>
+  <hr>
+
+    <div class="container ghh1">
+        <!-- <b><i><h3>Requesting cheque books</h3></i></b> -->
+
+             <!-- <p>To collect a cheque book, visit your bank's website or branch and follow the prompts.</p>
+             <br> -->
+        
+        <form #cheque="ngForm" (ngSubmit)="onsubmit(cheque.value)" >
+          <p>To collect a cheque book, visit your bank's website or branch and follow the prompts.</p>
+             <br>
+          <div class="input-group">
+            
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="uemail" type="email" class="form-control" name="uemail" ngModel placeholder="Email" value="{{cheque}}">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-receipt"></i></span>
+            <input id="accountnumber" type="number" class="form-control" name="accountnumber" ngModel placeholder="Account Number">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-brands fa-phoenix-framework"></i></span>
+            <input id="name" type="text" class="form-control" name="name" ngModel placeholder="name">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-location-dot"></i></span>
+            <input id="address" type="text" class="form-control" name="address" ngModel placeholder="address">
+          </div>
+          <br>
+          <div class="input-group" style="margin-left: 200px; background-color: chocolate; color: rgb(231, 59, 16);">
+            <!-- <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="address" type="text" class="form-control" name="address" placeholder="address"> -->
+            <button type="submit" class="btn-block kkk">Submit</button>
+          </div>
+          <br>
+        </form>
+        <br>
+      </div>
+</section>
+
+
+

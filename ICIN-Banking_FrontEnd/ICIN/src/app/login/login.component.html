@@ -1,0 +1,91 @@
+<!-- <p>login works!</p> -->
+<div class="container login1">
+    <div class="box box1">
+      <!-- <h1>admin</h1> -->
+      <section>
+        <div class="row login2">
+            <div class="col-md-6 offset-md-3">
+                <div class="my-card login3">
+                    <div class="container text-center">
+                    <!-- <img style="width:110px;" alt="" src="../IMG/gggg.png"> -->
+                    </div>
+                    <h1 class="text-center"><b><i>Admin Access</i></b></h1>
+                    <form #adminlogin="ngForm" (ngSubmit)="onadminlogin(adminlogin.value)">
+                
+                            <div class="mb-3">
+                            <label for="email" class="form-label">Email</label> 
+                                <input 
+                                type="text" 
+                                class="form-control"
+                                name="email"
+                                ngModel
+                                 placeholder="Enter Email"
+                                 required="required">
+                        </div>
+                            <div class="mb-3">
+                            <label for="password" class="form-label">Password</label> 
+                                <input 
+                                type="password" 
+                                class="form-control"
+                                name="password"
+                                ngModel
+                                 placeholder="Enter Password"
+                                 required="required">
+                        </div>
+                        <br>
+                        <button type="submit" class="login5 btn-block">Admin Login In</button>
+                        <button type="reset" class="login6 btn-block ">Reset</button>
+  
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>  
+    </div>
+
+
+
+
+    <div class="box box2">
+      <!-- <h1>User</h1> -->
+      <section>
+        <div class="row login8">
+            <div class="col-md-6 offset-md-3">
+                <div class="my-card login9">
+                    <div class="container text-center">
+                    <!-- <img style="width:110px;" alt="" src="../IMG/gggg.png"> -->
+                    </div>
+                    <h1 class="text-center"><b><i>User Login</i></b></h1>
+                    <form #userlogin="ngForm" (ngSubmit)="onuserlogin(userlogin.value)">
+                
+                            <div class="mb-3">
+                            <label for="uemail" class="form-label">Email</label> 
+                                <input 
+                                type="text" 
+                                class="form-control"
+                                name="uemail"
+                                ngModel
+                                 placeholder="Enter Email"
+                                 required="required">
+                        </div>
+                            <div class="mb-3">
+                            <label for="upassword" class="form-label">Password</label> 
+                                <input 
+                                type="password" 
+                                class="form-control"
+                                name="upassword"
+                                ngModel
+                                 placeholder="Enter Password"
+                                 required="required">
+                        </div>
+                        <br>
+                        <button type="submit" class="login10 btn-block">Login In</button>
+                        <button type="reset" class="login11 btn-block ">Reset</button>
+  
+                    </form>
+                </div>
+            </div>
+        </div>
+</section>
+    </div>
+  </div>

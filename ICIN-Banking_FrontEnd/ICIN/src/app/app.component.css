@@ -1,0 +1,10 @@
+.main1
+{
+    border-color: darkgray;
+   
+    background-color: rgba(147, 163, 162, 0.767);
+    background: linear-gradient(60deg, rgba(0, 255, 255, 0.288),rgba(147, 112, 216, 0.627));
+
+    /* color: rgb(217, 0, 0); */
+    /* background-color: rgb(217, 0, 0); */
+}

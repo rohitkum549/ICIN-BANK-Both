@@ -1,0 +1,52 @@
+
+  .home1 {
+    animation-name: rotateIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: linear;
+    animation-iteration-count: initial; */
+    animation-iteration-count: unset;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: rgba(225, 90, 37, 0.996);
+    text-align: center;
+  } 
+  @keyframes rotateIn {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .element {
+    height: 10px;
+    margin: 1px;  
+    padding: 2px; 
+  }
+  .element1 {
+    margin: 3px; 
+    padding: 10px; 
+    color: rgb(255, 242, 0);
+    background: linear-gradient(60deg, rgb(126 109 47 / 67%),rgb(103 17 24 / 51%));
+    border-radius: 100%;
+  }
+  .header-hr
+  {
+    color: aqua;
+    /* height: 0px; */
+    background-color: aqua;
+    border-radius: 10px; 
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: 0.5px solid #d8d8d8;
+    height: 100%;
+    
+  }
+  .row
+  {
+    text-align: center;
+  }

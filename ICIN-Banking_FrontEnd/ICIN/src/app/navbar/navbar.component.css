@@ -1,0 +1,27 @@
+.nav2
+{
+    
+    height: 28px;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+body{
+    background: linear-gradient(to bottom, #ff00c8 50%, #00ff84 50%);
+}
+.abba
+{
+    /* background: linear-gradient(60deg, brown,gold); */
+    background: linear-gradient(60deg, #a5332a82,#0e6a61fc);
+}
+/* .fixed-top
+{
+    position: fixed;
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    transition: 0.2s;
+} */

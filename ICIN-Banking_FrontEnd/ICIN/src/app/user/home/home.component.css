@@ -1,0 +1,121 @@
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.box13 {
+  width: 100%;
+  height: 100px;
+  padding: 0%;
+}
+
+.box11 {
+  margin-left: 400px;
+  background-size: cover;
+  text-align: center;
+}
+
+.box12 {
+  margin-right: 200px;
+  background-size: cover;
+  text-align: center;
+}
+.afterffg
+{
+  display: flex;
+  width: 100%;
+}
+.afterffg1
+{
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+.ff1gg
+{
+  text-align: center;
+}
+
+
+/* .afterffg
+  {
+    display: flex;
+    width: 100%;
+  }
+  .afterffg1
+  {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  .ff1gg
+  {
+    text-align: center;
+  } */
+  
+  .box {
+    width: 80%;
+    height: 170px;
+    margin: 10px;
+    /* border-radius: 50%; */
+    text-align: center;
+    /* width: 100px; */
+
+  }
+  
+  .box1 {
+    background-color: rgb(106, 207, 205);
+    border: 5px;
+    border-style: solid;
+    /* border-image: url(../../assets/atm.png); */
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  
+  .box2 {
+    background-color: rgb(106, 207, 205);
+    border: 5px;
+    border-style: solid;
+    /* border-image: url(../../assets/atm.png); */
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  .box3 {
+    background-color: rgb(106, 207, 205);
+    border: 5px;
+    border-style: solid;
+    /* border-image: url(../../assets/atm.png); */
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  .box4 {
+    background-color: rgb(106, 207, 205);
+    border: 5px;
+    border-style: solid;
+    /* border-image: url(../../assets/atm.png); */
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  .imgepp
+  {
+    width: 50%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  div{
+    color: brown;
+  }
+  a{
+    color: rgb(42, 74, 9);
+  }

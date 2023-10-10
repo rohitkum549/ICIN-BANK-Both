@@ -1,0 +1,48 @@
+.ghh1
+{
+    width: 50%;
+}
+
+.box13 {
+  width: 100%;
+  height: 100px;
+  padding: 0%;
+}
+
+.box11 {
+  background-size: cover;
+  text-align: center;
+  margin-left: 300px;
+  width: 100%;
+}
+
+.box12 {
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  margin-right: 330px;
+}
+.afterffg
+{
+  display: flex;
+  width: 100%;
+}
+.afterffg1
+{
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  /* margin-right: 200px; */
+}
+.ff1gg
+{
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.kkj
+{
+  background-color: cadetblue;
+  border-color: cadetblue;
+}

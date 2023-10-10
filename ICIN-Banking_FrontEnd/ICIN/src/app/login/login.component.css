@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .box {
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+  }
+  
+  .box1 {
+    background: linear-gradient(45deg, #5a4e4e, #ffffff);
+    /* background-image:url(../../assets/a13.jpg); */
+    background-size: cover;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  
+  .box2 {
+    background: linear-gradient(90deg, #3de0f1c4, rgb(17 78 80 / 92%));
+    /* background-image:url(../../assets/k3.png); */
+    background-size: cover;
+    width: -webkit-fill-available;
+    text-align: center;
+  }
+  .login1
+  {
+    background-color: rgba(147, 153, 163, 0.767);
+    border-color: rgba(147, 153, 163, 0.767);
+    border-style: solid;
+    border-width: 1px;
+    margin: 0%;
+  }
+/* .login2
+{
+  width: 50px;
+} */
+
+.login2
+{
+  
+    margin: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.login3
+{
+    /* background-color: rgb(255, 240, 127); */
+    color:  
+    #727272;
+    /* text-align: center; */
+    /* align-items: center; */
+   /* border-color: rgb(249, 255, 127); */
+   border-radius: 5%;
+   text-align: left;
+    
+}
+.login5
+{
+    background-color:#074a86;
+    border-color: #074a86;
+    color: aliceblue;
+}
+.login6
+{
+  background: linear-gradient(45deg, #932556, #6fd2d25e);
+  border-color:rgba(216, 162, 171, 0.51) ;
+    /* background-color: rgb(202, 9, 9);
+    border-color: rgb(229, 10, 6); */
+    color: aliceblue;
+}
+.login7
+{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+
+/* USer Login CSS */
+
+.login8
+{
+  
+    margin: 50px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.login9
+{
+    /* background-color: rgb(255, 240, 127); */
+    color: rgb(21, 84, 220);
+    text-align: left;
+    /* align-items: center; */
+   /* border-color: rgb(249, 255, 127); */
+   border-radius: 5%;
+    
+}
+.login10
+{
+    background-color: #88a7cd;
+    border-color: 
+    #88a7cd;
+    color: aliceblue;
+}
+.login11
+{
+  background-color: rgb(81 179 150);
+  border-color: rgb(79 173 158);
+    color: aliceblue;
+}
+/* .login7
+{
+    background-color: aquamarine;
+    color: aliceblue;
+} */
+
+

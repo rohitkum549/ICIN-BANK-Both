@@ -1,0 +1,190 @@
+<!-- <p>createbankaccount works!</p> -->
+
+  <!-- <div class="afterffg1">
+      <b><i><h1><span>Welcome to ICIN </span></h1></i></b>
+      <b><span>{{vali}}</span></b>
+  </div>
+<hr> -->
+<div class="container ff1gg">
+  <div>
+      <button (click)="logout()" style="background-color: rgb(107, 189, 185); border-color: rgb(107, 182, 189); margin-left: 1180px;">Logout</button>   
+  </div>
+</div>
+
+<div class="container login1">
+  <div class="box13 box11">
+      <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;">
+  </div>
+  <div class="box13 box12">
+
+      <div class="afterffg1">
+          <b><i><h1><span>Welcome to ICIN </span></h1></i></b>
+          <b><span>{{vali}}</span></b>
+      
+      </div>
+  </div>
+</div>
+<hr>
+<div class="container gghhff">
+  <div class="box box1">
+    <!-- <h1>admin</h1> -->
+    <div>
+      <img src="../../assets/Pink Cryptocurrency Your Story.png" class="gghhff7">
+    </div>
+  </div>
+  <div class="box box2">
+    <h1 class="text-center"><b><i>Apply For New Bank Account</i></b></h1>
+<section>
+ <div class="container gghhff">
+    <div class="row gghhff2">
+        <div class="col-md-6 offset-md-3 gghhff4">
+            <div class="my-card gghhff3">
+                <div class="container text-center">
+                <img style="width:110px;" alt="" src="../IMG/gggg.png">
+                </div>
+                
+                <form #createbankaccount="ngForm" (ngSubmit)="onCreateBankAccount(createbankaccount.value)">
+
+                  <div class="mb-3">
+                    <label for="branch" class="form-label"><i class="fa-solid fa-building-columns"></i> Bank Branch</label> 
+                    <select class="select" name="branch" ngModel required="required">
+                     <option value="IFSC0012">Badu</option>
+                     <option value="IFSC1122">Barasat</option>
+                     <option value="IFSC2233">Gobindopur</option>
+                     <option value="IFSC4455">Sonarpur</option>
+                    </select>
+                  </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><i class="fa-solid fa-user"></i> Full Name</label> 
+                            <input 
+                            type="text" 
+                            class="form-control"
+                            name="name"
+                            ngModel
+                             placeholder="Enter Full Name"
+                             required="required">
+                    </div>
+                        <div class="mb-3">
+                        <label for="phone" class="form-label"><i class="fa-solid fa-phone"></i> Mobile Number</label> 
+                            <input 
+                            type="number" 
+                            class="form-control"
+                            name="phone"
+                            ngModel
+                             placeholder="Enter Mobile Number"
+                             required="required">
+                    </div>
+                    <br>
+                        <div class="mb-3">
+                             <label for="banktype" class="form-label"><i class="fa-solid fa-building-columns"></i> Bank Type</label> 
+                             <select class="select" name="banktype" ngModel>
+                              <option value="Saving">Saving</option>
+                              <option value="Current">Current</option>
+                             </select>
+                    </div>
+                        <div class="mb-3">
+                        <label for="dateofbirth" class="form-label"><i class="fa-regular fa-calendar"></i> Date Of Birth</label> 
+                            <input 
+                            type="date" 
+                            class="form-control"
+                            name="dateofbirth"
+                            ngModel
+                             placeholder=""
+                             required="required">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="pan" class="form-label"><i class="fa-regular fa-id-card"></i> Pan Card</label> 
+                          <input 
+                          type="text" 
+                          class="form-control"
+                          name="pancard"
+                          ngModel
+                           placeholder="Enter Pan Number"
+                           required="required">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="aadhar" class="form-label"><i class="fa-regular fa-id-card"></i> Aadhar Number</label> 
+                        <input 
+                        type="number" 
+                        class="form-control"
+                        name="aadhar"
+                        ngModel
+                         placeholder="Enter Aadhar Number"
+                         required="required">
+                </div>
+
+                <div class="mb-3">
+                  <label for="address" class="form-label"><i class="fa-solid fa-location-dot"></i> Address</label> 
+                      <input 
+                      type="text" 
+                      class="form-control"
+                      name="address"
+                      ngModel
+                       placeholder="Full Address"
+                       required="required">
+              </div>
+
+                <div class="mb-3">
+                  <label for="photo" class="form-label"><i class="fa-solid fa-image"></i> Photo</label> 
+                      <input 
+                      type="file" 
+                      class="form-control"
+                      name="photo"
+                      ngModel
+                       placeholder=""
+                       required="required">
+              </div>
+
+              <div class="mb-3">
+                <label for="nomineename" class="form-label"><i class="fa-solid fa-user"></i> Nominee Name</label> 
+                    <input 
+                    type="text" 
+                    class="form-control"
+                    name="nomineename"
+                    ngModel
+                     placeholder="Full name"
+                     required="required">
+            </div>
+
+            <div class="mb-3">
+              <label for="nomineephone" class="form-label"><i class="fa-solid fa-phone"></i> Nominee Phone</label> 
+                  <input 
+                  type="number" 
+                  class="form-control"
+                  name="nomineephone"
+                  ngModel
+                   placeholder="Number"
+                   required="required">
+          </div>
+
+          <div class="mb-3">
+            <label for="nomineeaadhar" class="form-label"><i class="fa-regular fa-id-card"></i> Nominee Aadhar</label> 
+                <input 
+                type="number" 
+                class="form-control"
+                name="nomineeaadhar"
+                ngModel
+                 placeholder="Aadhar Number"
+                 required="required">
+        </div>
+                   
+                    
+                    <br>
+                   
+                    <button type="submit" class="gghhff5 btn-block">Apply For New Account</button>
+                    <button type="reset" class="gghhff6 btn-block ">Reset</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<div>
+<img src="../../assets/q3.jpg" class="gghhff8">
+<!-- <app-carousel></app-carousel> -->
+</div>
+  </div>
+</div>

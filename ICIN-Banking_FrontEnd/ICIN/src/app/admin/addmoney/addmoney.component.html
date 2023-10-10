@@ -1,0 +1,61 @@
+<!-- <p>addmoney works!</p> -->
+<section>
+
+    <!-- <div class="afterffg1">
+        <b style="color: rgb(125, 49, 87);"><i><h1><span>Welcome to-ICIN-Cash Add-Money </span></h1></i></b>
+        <b><span>MR.{{vali}}</span></b>
+    </div> -->
+
+    <div class="container ff1gg">
+      <div>
+          <button (click)="logout()" style="background-color: rgb(120, 196, 199); border-color: rgb(121, 212, 215); margin-left: 1180px;">Logout</button>   
+      </div>
+    </div>
+    
+    <div class="container ff1gg">
+      <div class="box13 box11">
+          <!-- <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;"> -->
+          <img src="../../../assets/admin-panel.png" style="border-radius: 100%; width: 34%;">
+      </div>
+      <div class="box13 box12">
+    
+          <div class="afterffg1">
+              <b><i><h1><span>Deposit Money <i class="fa-solid fa-money-bill-trend-up"></i></span></h1></i></b>
+              <b><span>{{admin}}</span></b>
+          
+          </div>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div class="container ghh1">
+             <p style="color: rgb(216, 61, 23); font-size: larger;">Alert on Account Number</p>       
+        <form #money="ngForm" (ngSubmit)="addmoney(money.value)" >
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="uemail" type="text" class="form-control" name="name" ngModel placeholder="Holder Name" value="">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-receipt"></i></span>
+            <input id="accountnumber" type="text" class="form-control" name="accountnumber" ngModel placeholder="Account Number">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-solid fa-mountain"></i></span>
+            <input id="balance" type="number" class="form-control" name="balance" ngModel placeholder="Amount">
+          </div>
+          <br>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fa-regular fa-comment"></i></span>
+            <input id="" type="text" class="form-control" name="address" ngModel placeholder="Remarks">
+          </div>
+          <br><br>
+          <div class="input-group" style="margin-left: 250px; background-color: chocolate; color: rgb(240, 245, 246);">
+            <button type="submit" class="btn-block" style="background-color: blueviolet; border-color: blueviolet;">Add Money</button>
+          </div>
+        </form>
+        <br>
+      </div>
+</section>

@@ -1,0 +1,76 @@
+<!-- <p>admin1 works!</p> -->
+
+<!-- <p>accountview works!</p> -->
+
+
+<div class="container ff1gg">
+  <div>
+      <button (click)="logout()" style="background-color: rgb(120, 196, 199); border-color: rgb(121, 212, 215); margin-left: 1180px;">Logout</button>   
+  </div>
+</div>
+
+<div class="container ff1gg">
+  <div class="box13 box11">
+      <img src="{{viewphoto.photo}} " style="height: 80px; width: auto; border-radius: 100%;">
+  </div>
+  <div class="box13 box12">
+
+      <div class="afterffg1">
+          <b><i><h1><span>Account Balance <i class="fa-solid fa-scale-balanced"></i></span></h1></i></b>
+          <b><span>{{vali}}</span></b>
+      
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="container">
+  <div class="cart-header" style="text-align: center;">
+    <h3 style="font-size: 30px; 
+              color: rgb(214, 60, 134);
+              background-color: rgba(250, 235, 215, 0.332);">My Balance</h3>
+  </div>
+  <div class="container">
+    <div class="container">
+
+      <div class="cart">
+        <div class="cart-items">
+          <table class="table boder=1">
+            <tr>
+              <th>Account Number</th>
+              <th>IFSC Code</th>
+              <th>Balance</th>
+            </tr>
+    
+            <tr>
+              <td>
+                {{ProductArray.accountnumber}}
+              </td>
+              <td>
+                {{ProductArray.ifsc}}
+              </td>
+              <td>
+                {{ProductArray.balance | currency}}
+              </td>
+            </tr>
+            <!-- <hr> -->
+          </table>
+        </div>
+        <div class="cart-total">
+        </div>
+        <div class="cart-actions">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <!-- <button (click)="logout()" style="background-color: darkkhaki; border-color: darkkhaki; margin-left: 1000px;">Logout</button>    -->
+</div>
+<!-- <router-outlet></router-outlet> -->
